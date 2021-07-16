@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right bottom,rgba(126,213,111,0.8), rgba(40,180,131,0.8));
+}
+.nav{
+    background-color:  #00FFFF ;
+    display: flex;
+    justify-content: center;
+    width:100vw;   
+    position: fixed;
+    top:0;
+    left:0;
+}
+.nav h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Otomanopee One', sans-serif;
+    display: block;
+    margin: auto;
+}
+.image-container{
+    margin:1rem;
+    display:flex;
+    justify-content: center;
+}
+.logo{
+    margin:1.5rem;
+    width:4.5rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.input{
+width:40vw;
+box-sizing: border-box;
+margin-top: 1rem;
+border-radius: 30px;
+outline: none;
+vertical-align: middle;
+}
+.input:hover{
+    border: tomato;
+    box-shadow: violet;
+
+}
+.btn{
+    border-radius: 1.0rem;
+    width:10vw;
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    background-color: aliceblue;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    outline: none;
+    vertical-align: middle;
+}
+.btn:hover{
+    cursor:pointer;
+}
+.container{
+    background-color:#2C3E50;
+    width:50vw;
+    height: 50vw;
+    margin: auto;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: -1;
+}
+.img{
+    position: relative;
+    width:4vw;
+    margin: 1.2rem;   
+}
+.img:hover{
+    transform: scale(1.2);
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+.left{
+    float: left;
+    clear: both;
+}
+.message{
+    background-color: honeydew;
+    width:20vw;
+    height:5vh;
+    margin:1.1rem;
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+@media (max-width:1074px){
+  
+    
+    .message{
+        background-color: honeydew;
+        width:45vw;
+        height:5vh;
+        margin:1.1rem;
+        padding: 0.5rem;
+        border-radius: 10%;
+    }
+    .container{
+        width:75vw;
+        height:80vh;
+    }
+    .img{
+        position: relative;
+        width: 5vw;
+
+    }
+    .img:hover{
+        transform: scale(1.2);
+    }
+    .input{
+        width:60vw;
+        box-sizing: border-box;
+        margin-top: 1rem;
+        border-radius: 30px;
+        outline: none;
+        vertical-align: middle;
+        display: block;
+    }
+    .btn{
+        border-radius: 1.0rem;
+        width:15vw;
+        box-sizing: border-box;
+        padding: 0.5rem;
+        margin-top: 1rem;
+        background-color: aliceblue;
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        outline: none;
+        vertical-align: middle;
+        display: block;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+}
+
